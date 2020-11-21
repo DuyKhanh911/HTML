@@ -17,6 +17,6 @@ học git : https://xuanthulab.net/lenh-git-add-luu-thong-tin-chuan-bi-commit.ht
 
 	U = updated but unmerged (đã cập nhật, nhưng chưa merge)
 4/ git commit -m "Ghi chú về commit" [lưu lại sự thay đổi
-	git commit -a -m "Ghi chú về commit"[Khi cho tham số -a thì nó tương đương thực hiện lệnh git add để đưa các file 
-		đang được giám sát có sự thay đổi vào staging rồi tự động chạy git commit]
+	git commit -a -m "Ghi chú về commit"[Khi cho tham số -a thì nó tương đương thực hiện lệnh git add 
+	để đưa các file đang được giám sát có sự thay đổi vào staging rồi tự động chạy git commit]
 5/ git push -u origin master[nhánh]
