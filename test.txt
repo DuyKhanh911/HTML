@@ -1,1 +1,23 @@
 tôi chỉ text thôi nha
+học git : https://xuanthulab.net/lenh-git-add-luu-thong-tin-chuan-bi-commit.html
+
+1/ git init 
+2/ git add [ten file thì phải có châm sau đuôi]/[tên folder]/[--all / --A tất cả file trong thư mục]
+3 git status [xem trang thái]
+	git status -s [nếu muốn thay đổi thì chọn git status -s rồi s đó chọn A,B,C theo ý]
+	' ' = unmodified (không đổi)
+
+	M = modified (có sửa đổi)
+
+	A = added (file mới thêm)
+
+	D = deleted (file bị xóa)
+
+	R = renamed (đổi tên file)
+	
+	C = copied (file copy từ file khác)
+
+	U = updated but unmerged (đã cập nhật, nhưng chưa merge)
+4/ git commit -m "Ghi chú về commit" [lưu lại sự thay đổi
+	git commit -a -m "Ghi chú về commit"[Khi cho tham số -a thì nó tương đương thực hiện lệnh git add để đưa các file 
+		đang được giám sát có sự thay đổi vào staging rồi tự động chạy git commit]
