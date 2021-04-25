@@ -28,3 +28,9 @@ $ git config --global user.email
 	git commit -a -m "Ghi chú về commit"[Khi cho tham số -a thì nó tương đương thực hiện lệnh git add 
 	để đưa các file đang được giám sát có sự thay đổi vào staging rồi tự động chạy git commit]
 5/ git push -u origin master[nhánh]
+////
+	nếu muốn cặp nhật lại thông tin đã tải lên git
+1. tải từ git về
+2. git add.....
+3.git commit...
+4.git push.
