@@ -1,4 +1,12 @@
 học git : https://xuanthulab.net/lenh-git-add-luu-thong-tin-chuan-bi-commit.html
+
+	điền thông tin email & name:
+$ git config --global user.name "John Doe" // name
+$ git config --global user.email "johndoe@example.net" // email
+	check lại thông tin
+$ git config --global user.name
+$ git config --global user.email
+/////////////
 1/ git init 
 2/ git add [ten file thì phải có châm sau đuôi]/[tên folder]/[--all / --A tất cả file trong thư mục]
 3 git status [xem trang thái]
