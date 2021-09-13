@@ -34,3 +34,12 @@ $ git config --global user.email
 2. git add.....
 3.git commit...
 4.git push.
+//////
+…or create a new repository on the command line
+echo "# sdfdsfsdfdsf" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DuyKhanh911/sdfdsfsdfdsf.git
+git push -u origin main
